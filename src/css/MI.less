@@ -1,0 +1,286 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.head{
+   width: 100%;
+}
+.head-img{
+    width: 100%;
+    height: 120px;
+    display: block;
+    background: url(../html/img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 120px
+}
+.head-nav{
+    width: 100%;
+    background: black;
+    height: 40px;
+}
+.type-area{
+    padding: 0;
+    width: 1226px;
+}
+.type-area a{
+   color: #b0b0b0;
+   margin-left: 10px;
+   display: inline-block;
+} 
+.store{
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;
+    position: relative;
+}
+.register{
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;  
+    margin-left: 130px;
+    
+}
+.shopping-trolley{
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;
+    margin-left: -30px;
+    background: #424242;
+    position: relative;
+}
+.gouwuche{
+    width:300px;
+    height: 129px;
+    background: blanchedalmond;
+    position: absolute;
+    left: -198px;
+    display: none;
+}
+.shopping-trolley a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.shopping-trolley:hover .gouwuche{
+ display: block;
+}
+.store a:hover{
+   color: white;
+}
+
+.download{
+   position: relative;
+}
+.code{
+   
+   display: block;
+    width:124px ;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    left: -84%;
+    background: #ffffff;
+    box-shadow: 0 1px 5px #aaa;
+    text-align: center;
+    overflow: hidden;
+    transition:height 0.5s;
+	-webkit-transition:height 0.5s
+    
+}
+
+.pull-down{
+    display: block;
+    height: 0;
+    width: 0;
+    border-bottom: 10px solid #ffffff;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: absolute;
+    top: 30px;
+    left: 37%;
+     display: none;
+
+}
+.store .download:hover .pull-down{
+  display: block;
+}
+.store .download:hover .code{
+    height: 164px;
+}
+.menu{
+    padding: 0;
+    width:1226px;
+    padding-left: 10px;
+}
+.head-log .log{
+    background: #ff6700;
+    height: 55px;
+    width: 55px;
+    padding: 0;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.head-log .log .hover-logo{
+    display: block;
+    background: url(../html/img/mi-home.png);
+    width: 55px;
+    height: 55px;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:-55px ;
+    transition:left 0.5s;
+	-webkit-transition:left 0.5s
+}
+.head-log .log .mi-logo{
+    display: block;
+    background: url(../html/img/mi-logo.png);
+    width: 55px;
+    height: 55px;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0 ;
+    transition:left 0.5s;
+	-webkit-transition:left 0.5s
+}
+.log:hover .hover-logo{
+    position: absolute;
+    left: 0;
+}
+.log:hover .mi-logo{
+    position: absolute;
+    left: 55px;
+}
+.log-nav{
+    
+    font-size: 16px;
+    margin-left: 140px;
+}
+.log-nav a{
+    display: inline-block;
+    height: 88px;
+    line-height: 88px;
+    color: black;
+    margin-left: 15px;
+}
+.slideshow-wrapper{
+    padding: 0;
+    width: 1226px;
+    position: relative;
+}
+.slideshow-menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.slideshow-menu .list{
+    width: 100%;
+    height: 100%;
+}
+.carousel-control{
+    position: absolute;
+    left: 136px;
+}
+.slideshow{
+    .right{
+        background-image: none;
+    }
+}
+.slideshow-menu .list li span{
+    font-size: 16px;
+    line-height: 46px;
+}
+.slideshow-menu .list li em{
+    position: absolute;
+    top: 12px;
+    left: 160px;
+}
+.slideshow-menu .list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.lunbo{
+    height: 470px;
+    padding: 0;
+}
+.carousel-indicators{
+    position: absolute;
+    left: 93%;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    height: 470px;
+}
+.home-hero-sub {
+    padding: 0;
+    width: 1226px;
+    margin-top: 20px;
+}
+.home-hero-sub .Smart-figure{
+    padding: 0;
+    width: 19%;
+    overflow: hidden;
+}
+.home-hero-sub .Smart-figure a{
+    display: block;
+    width: 33.33333333%;
+    height: 82px;
+    float: left;
+    text-align: center;
+    line-height: 82px;
+    // border :#eee 1/4px solid;
+}
+.home-hero-sub .first{
+    width: 27%;
+    overflow: hidden;
+}
+.home-hero-sub .Redmi10{
+    width: 27%;
+    overflow: hidden;
+}
+.home-hero-sub .Millet-watches{
+    width: 27%;
+    overflow: hidden;
+}
+.home-hero-sub  div{
+    float: left;
+}
+.long-string,.striping{
+    position: relative;
+}
+.long-string::after{
+     content: "";
+     display: inline-block;
+     background:#665e57;
+     height: 70px;
+     width: 1px;
+     position: absolute;
+     top: 13px;
+     left: 76px;
+
+}
+.striping::before{
+    content: "";
+    display: inline-block;
+    background:#665e57;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+}
+ 
